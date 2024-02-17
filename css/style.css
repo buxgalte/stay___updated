@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--Pale-Navy, #36384D);
+}
+
+.section-updated {
+    display: flex;
+    margin: auto;
+}
+
+.stay__updated {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 60px;
+    /* padding-right: 30px; */
+
+    width: 928px;
+    margin: auto;
+    margin-top: 60px;
+    /* height: 641px; */
+    flex-shrink: 0;
+    border-radius: 36px;
+    background: #FFF;
+    box-shadow: 0px 15px 60px 0px rgba(0, 0, 0, 0.25);
+}
+
+.text-section {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+}
+
+.section-title {
+    color: var(--Dark-Navy, #242742);
+    font-feature-settings: 'clig' off, 'liga' off;
+    margin-top: -97px;
+    /* margin-left: 40px; */
+    margin-bottom: 20px;
+    /* Heading */
+    font-family: Roboto;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    /* 56px */
+}
+
+.section-text {
+    width: 340px;
+    color: var(--Dark-Navy, #242742);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Body */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 24px;
+    /* 24px */
+}
+
+.section-ads {
+    /* display: flex;
+   flex-direction: column; */
+    /* align-items: center;
+   justify-content: center; */
+}
+
+.ads {
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+    justify-content: flex-start;
+
+}
+
+.ads-img {
+    margin-top: -14px;
+}
+
+.ads-text {
+    margin-bottom: 15px;
+}
+
+.form-floating {
+    border: unset;
+    box-shadow: unset;
+    width: 376px;
+    height: 56px;
+    flex-shrink: 0;
+    margin-top: 66px;
+    margin-bottom: 24px;
+
+}
+.btn-ads{
+    display: flex;
+    column-gap: 30px;
+}
+.btn-dark {
+    width: 376px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: var(--Dark-Navy, #242742);
+    transition: .5s;
+    border: unset;
+}
+.btn-dark:hover{
+    border-radius: 8px;
+    background: var(--Gradient-1, linear-gradient(204deg, #FF6A3A 0%, #FF527B 100%));
+    box-shadow: 0px 16px 32px 0px rgba(255, 97, 85, 0.50);
+    border: unset;
+}
+.btn-dark :active {
+    border: unset;
+    border-radius: 8px;
+    background: var(--Gradient-1, linear-gradient(204deg, #FF6A3A 0%, #FF527B 100%));
+    box-shadow: 0px 16px 32px 0px rgba(255, 97, 85, 0.50);
+   
+
+}
+.img-section {}
+
+.section-img {
+    padding: 24px;
+}
